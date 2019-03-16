@@ -24,23 +24,17 @@ body {
 
 /* Alles voor de navigatiebalk*/
 nav ul {
-  list-style-type:none;
-  margin: 0;
-  padding-left: 460px;
   overflow: hidden;
   background-color: #006e65;
-  border-radius: 10px;
+  border-radius: 20px;
  
 }
-/* tekst links uitlijnen - horizontaal */
-nav li {
-  float: left;
-  
-}
+
 /* Kleur van de letters wit, text-decoration=none betekent dat het niet onderstreept is. */
+
 nav li a {
   display: block;
-  width: 110px;
+  width: 150px;
   color: white;
   padding: 14px 16px;
   text-decoration: none;
@@ -84,4 +78,12 @@ table, td {
 }
 body {
     background-color: #f1f1f1
+}
+
+
+.btn-primary {
+
+    color: #fff;
+    background-color: #3d3d3d;
+    border-color: #f1f1f1;
 }
