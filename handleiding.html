@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <title>Handleiding groep 5</title>
@@ -33,27 +28,43 @@ and open the template in the editor.
                 </li>
               </ul>
             </nav>
-        <img src="logo.png" class="rounded float-right" alt="logo" height="250" width="250">
+        <img src="logo.png" class="rounded float-right" alt="logo" height="250px" width="250px">
         
         <h2>Installatie</h2>
+		<p style="color:green">Het is aanbevolen om alle stappen eerst eens volledig te lezen voor dat je ze volgt.</p>
+		
         <h3>Stap 1: De app installeren</h3>
-        <p>Download en installeer de app op je gsm.<br/> https://github.com/minecabla/micro-games/blob/master/microbit%20hex%20files/app-debug.apk </p>
-        <p>Zet een compatibel hex-bestand op je micro:bit via USB. Bijvoorbeeld https://github.com/minecabla/micro-games/blob/master/microbit%20hex%20files/app-debug.apk </p>
+        <p><a href="microgames.apk" download>Download</a> en installeer de app op je gsm.<br/></p>
+		<p>De installatie loopt niet via de Google Play store dus moet je het app-bestand via bovenstaande link downloaden.</p>
+		<p>Daarna open je het bestand en druk je op installeren.</p>
+		<p>Het is mogelijk dat er een popup verschijnt die de installatie van onbekende bronnen voorkomt. Door de stappen in deze popup te volgen kun je dit tijdelijk uit zetten.</p>
         
-        <h3>Stap 2: verbinden</h3>
+		<h3>Stap 2: hex-bestand installeren</h3>
+		<p>Om er voor te zorgen dat de app kan communiceren met de micro:bit moet je een compatibel hex-bestand op je micro:bit  zetten via USB.</p>
+		<p>Omdat elke smartphone verschillend is hebben we enkele hex-bestanden voorbereid.</p>
+		<ul>
+			<li><a href="microbit-game.hex" download>microbit-game.hex</a></li>
+			<li><a href="microbit-game-try2.hex" download>microbit-game-try2.hex</a></li>
+			<li><a href="microbit-game-try2.hex" download>microbit-game-try3.hex</a></li>
+		</ul>        
+		<p>Voer volgende stappen eerst uit met het eerste hex-bestand. Als stap 3 niet lukt, kun je het opnieuw proberen met het tweede of het derde hex-bestand.</p>
+		
+        <h3>Stap 3: verbinden</h3>
         <p>Zet internet en bluetooth aan en connecteer met de micro:bit via Bluetooth. </p>
-        <p>Zet hiervoor de micro:bit in 'pairing mode' door knop A en B ingedrukt te houden, en vervolgens op de reset-knop te drukken. Voor meer uitleg druk op 'help' in de app. </p>
-        <p>Start de app op en volg daar verdere instructies, klik op 'FIND PAIRED BBC MICRO:BIT(s) en klik op jouw micro:bit.</p>
+		<p style="color:red">Vanaf deze stap is het een vereiste dat je verbonden bent met het internet!</p>
+        <p>Zet hiervoor de micro:bit in 'pairing mode' door knop A en B ingedrukt te houden, en vervolgens op de reset-knop te drukken. Voor meer uitleg druk op de drie bolletjes (menu) bovenaan in de app en dan op 'help'. </p>
+        <p>Zodra de connectie gelukt is, klik je in de micro:games app op 'ZOEK GEKOPPELDE MICRO:BITS en klik op jouw micro:bit.</p>
         <p>Op het volgende scherm wordt de keuze gemaakt om aan een groep deel te nemen of om een groep aan te maken.</p>
         
-        <h3>Stap 3: Aanmaken of deelnemen van/aan een groep </h3>
+        <h3>Stap 4: Aanmaken of deelnemen van/aan een groep </h3>
         <p>Om aan een groep deel te nemen, moet er eerst een groep aangemaakt worden door één persoon. </p>
         <p>Zorg dat alle deelnemers eerst succesvol hun micro:bit geconnecteerd hebben met hun app, zoals in stap 2.</p>
-        <p>Klik op "Een groep maken", selecteer het aantal speelrondes en kies jouw spelersnaam. </p>
+        <p>Een speler klikt op "Een groep maken", selecteert het aantal speelrondes en kiest zijn/haar spelersnaam. Druk nog niet op "start". Na een aantal seconden verschijnt het groepsnummer</p>
         <p>Deel vervolgens het groepsnummer met de medespelers die op "Aan een groep deelnemen" moeten drukken en maak de groep aan.</p>
         <p>De medespelers geven vervolgens het groepsnummer alsook hun spelersnaam in en duwen daarna op "deelnemen". </p>
+		<p>Nadat iedereen zich heeft toegevoegd aan de groep drukt de speler die de groep gemaakt heeft op "start".</p>
         
-        <h3>Stap 4: Het spelen van de minigames </h3>
+        <h3>Stap 5: Het spelen van de minigames </h3>
         <p>Het geselecteerde aantal rondes door de aanmaker van de groep duidt aan hoeveel minigames er gespeeld zullen worden. </p>
         <p>Bij elke minigame wordt er een korte uitleg gegeven via de app en wordt het spel gespeeld op de microbit.</p>
         <p>Na het spel krijgt de beste speler een punt.</p>
